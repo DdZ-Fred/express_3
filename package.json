@@ -1,0 +1,32 @@
+{
+  "name": "express_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DdZ-Fred/express_3.git"
+  },
+  "keywords": [],
+  "author": "Frederic Rey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DdZ-Fred/express_3/issues"
+  },
+  "homepage": "https://github.com/DdZ-Fred/express_3#readme",
+  "dependencies": {
+    "consolidate": "^0.14.1",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.9.2"
+  }
+}

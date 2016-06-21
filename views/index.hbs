@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User index</title>
+  </head>
+  <body>
+    <h2>Handlebars</h2>
+    <ul>
+      {{#each users as |user|}}
+        <li><a href="/{{user.username}}">{{user.name.full}}</a></li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
